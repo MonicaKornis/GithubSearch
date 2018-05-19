@@ -1,5 +1,59 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100%;
+  min-height: 100%;
+  font-family: 'Baloo Chettan';
+}
+
+.App {
+  width: 100vw;
+  background: #fff0;
+}
+
+img {
+  width: 80%;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Baloo Chettan';
+}
+
+.repoWrapper {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-self: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.indexItem {
+  width: 20vw;
+  padding: 1vh;
+  height: 35vh;
+  margin: auto;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 10%;
+  margin-bottom: 5vh;
+}
+
+.indexItem * {
+  width: 80%;
+  left: 10%;
 }
