@@ -54,6 +54,15 @@ img {
 }
 
 .indexItem * {
-  width: 80%;
-  left: 10%;
+  width: 86%;
+  margin: auto;
+  font-size: 85%;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: green;
+  padding: 0;
+  margin-bottom: 6%;
+  -ms-flex-pack: center;
+  justify-content: center;
 }

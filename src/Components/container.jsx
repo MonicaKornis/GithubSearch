@@ -17,21 +17,10 @@ class MainContainer extends Component {
       url: 'https://api.github.com/search/repositories?q=react+language:javascript&sort=stars&order=desc&per_page=100'
     }).then((obj) => {
       let firstRepos = obj.items;
-      console.log(firstRepos[0].name);
       this.setState({ firstRepos: obj.items, firstUserName:
         firstRepos[0].name, loading: false});
     });
   }
-
-    tick() {
-
-      // let deg = 0
-      // let ticker = () => {
-      //   html.style.background = `background linear-gradient(${deg++}deg, #e484be, #83a2b1)`
-      //   requestAnimationFrame(tick);
-      // };
-      // requestAnimationFrame(tick);
-    }
 
     render() {
       let loader = <div className='loading'></div>;
