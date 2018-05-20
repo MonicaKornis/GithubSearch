@@ -28,7 +28,18 @@ img {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: 'Baloo Chettan';
+  font-family: Helvetica;
+}
+
+.sideSection {
+  width: 101%;
+  position: relative;
+  background-color: #00c4fffa;
+  margin-bottom: 56px;
+  height: 72vh;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding: 0px;
 }
 
 .repoWrapper {
@@ -42,19 +53,24 @@ img {
   flex-wrap: wrap;
 }
 
-.indexItem {
-  width: 20vw;
-  padding: 1vh;
-  height: 35vh;
-  margin: auto;
-  position: relative;
-  border: 1px solid #ccc;
-  border-radius: 10%;
-  margin-bottom: 5vh;
+div.indexItem {
+    flex-basis: 20%;
+    padding: 1vh;
+    min-height: 26vw;
+    max-height: 26vw;
+    margin: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    margin-bottom: 5vh;
+    flex-direction: column;
 }
 
 .indexItem * {
-  width: 86%;
+  width: 60%;
+  max-height: 30%;
   margin: auto;
   font-size: 85%;
   display: -ms-flexbox;
@@ -65,4 +81,10 @@ img {
   margin-bottom: 6%;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.itemHeader {
+  font-size: 2vw;
+  font-family: Helvetica;
+  margin-top: 10%;
 }

@@ -35,6 +35,9 @@ class App extends Component {
     render() {
       return (
         <div className="App">
+        <div className='sideSection'>
+        
+        </div> 
         <MainContainer />
         </div>
       );

@@ -4,7 +4,7 @@ const GitHubIndexItem = ({ name, url, imageUrl }) => {
   console.log(imageUrl);
   return(
     <div className='indexItem'>
-      <h1>{name}</h1>
+      <h1 className='itemHeader'>{name}</h1>
       <img src={imageUrl} />
       <a href={url}>Repo</a>
 

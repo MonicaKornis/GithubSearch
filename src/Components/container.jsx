@@ -31,8 +31,6 @@ class MainContainer extends Component {
       console.log(display.id);
       return(
         <div id='main'>
-
-          <h1> Most Popular React Repositories!</h1>
           <div className='repoWrapper'>
             {display}
           </div>
